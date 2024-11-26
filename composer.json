@@ -1,0 +1,48 @@
+{
+    "name": "huseyinfiliz/footer",
+    "description": "Add fully compatible and responsive modern footer for Flarum",
+    "keywords": [
+        "footer",
+        "flarum",
+        "custom",
+        "links",
+        "responsive",
+        "compatible",
+        "simple"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/huseyinfiliz/footer/issues",
+        "source": "https://github.com/huseyinfiliz/footer",
+        "discuss": "https://discuss.flarum.org/d/36061"
+    },
+    "homepage": "https://huseyinfiliz.com.tr/sosyal",
+    "funding": [
+        {
+            "type": "website",
+            "url": "https://huseyinfiliz.com.tr/"
+        }
+    ],
+    "require": {
+        "flarum/core": "^1.2.0"
+    },
+    "authors": [
+        {
+            "name": "Huseyin Filiz",
+            "email": "dev@huseyinfiliz.com.tr",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "flarum-extension": {
+            "title": "Footer Links",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-link",
+                "backgroundColor": "#3498db",
+                "color": "#ffffff"
+            }
+        }
+    }
+}
